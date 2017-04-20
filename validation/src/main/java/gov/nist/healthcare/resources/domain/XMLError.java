@@ -18,8 +18,7 @@ public class XMLError {
 		super();
 		this.line = e.getLineNumber();
 		this.column = e.getColumnNumber();
-		String msg = e.getMessage();
-		this.message = msg.substring(msg.indexOf(":") + 2);
+		this.message = e.getMessage();
 	}
 	public XMLError(int line, int column, String message) {
 		super();
