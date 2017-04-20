@@ -10,6 +10,7 @@ Validates HL7 V2 Resources (Profiles, Conformance Contexts, ValueSets) against x
 		<version>1.0.1</version>
 	</dependency>
 ```
+
 ### XSD Folder Format 
 
 path_to_folder/ <br>
@@ -18,6 +19,9 @@ path_to_folder/ <br>
 ├── Expressions.xsd <br>
 ├── Profile.xsd <br>
 └── ValueSets.xsd <br>
+
+### XML Schema repository
+https://github.com/Jungyubw/NIST_healthcare_hl7_v2_profile_schema
 
 ### Create a xml validator instance
 
